@@ -1,6 +1,6 @@
-# Hello World
+# My Portfolio
 
-> Hello Microverse.
+> This is my Portfolio. Please be my guest to read all my experiance.
 
 ## Built With
 
@@ -12,7 +12,7 @@
 
 ## Getting Started
 
-To get a local copy up and run git clone https://github.com/The-Normal-One1/Hello-World and follow these steps.
+To get a local copy up and run git clone https://github.com/The-Normal-One1/PortFolio and follow these steps.
 
 ### Open file in the VS code
 
