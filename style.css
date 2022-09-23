@@ -1,7 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: black;
-    max-height: 1000px;
+    margin: 0;
   }
 
   header {
@@ -11,8 +10,9 @@
   .home {
     background-image: url("images/group.svg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-position: bottom right;
+    background-color: black;
   }
 
   .nav {
@@ -51,9 +51,10 @@
     font-weight: 400;
     font-size: 56px;
     line-height: 64px;
-    margin: 120px 24px 24px;
+    margin: 0 24px 24px;
     letter-spacing: 0.37px;
     color: #ff6b00;
+    padding-top: 120px;
   }
 
   .my-job {
@@ -85,6 +86,7 @@
     display: flex;
     width: 200px;
     justify-content: space-between;
+    height: 50px;
   }
 
   .social-item {
@@ -96,6 +98,296 @@
   .social {
     display: flex;
     gap: 20px;
-    margin-left: 35px;
+    margin-left: 0;
+  }
+
+  .works {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .my-recent {
+    padding-top: 120px;
+    font-family: "Crete Round", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1c1a19;
+  }
+
+  .placeholder {
+    padding-top: 80px;
+  }
+
+  .stories {
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .daily {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .lruby {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+  }
+  .block {
+    box-sizing: border-box;
+    border: 1px solid #8993a4;
+    align-items: center;
+    padding: 10px 12px;
+    background: #ffffff;
+    text-decoration: none;
+    color: #091e42;
+    margin-bottom: 12px;
+  }
+
+  .block:hover {
+    color: gray;
+    background-color: #091e42;
+  }
+
+  .see-project {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 12px;
+    background: #ff6b00;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 12px;
+  }
+
+  .see-project:hover {
+    color: #3c3a39;
+    background-color: green;
+  }
+
+  .profesion {
+    color: #ffffff;
+    background-image: url("images/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .heading-content {
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 84px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+  }
+
+  .p-content {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+  }
+
+  .p-language {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-bottom: 22px;
+  }
+
+  .block-two {
+    text-decoration: none;
+    padding: 10px 12px 10px 12px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .block-two:hover {
+    color: aquamarine;
+    background-color: #1c1a19;
+  }
+  .proj {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    position: absolute;
+    background-color: #ff6b00;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: -15px;
+    width: 100%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+
+  .proj:hover {
+    color: #8993a4;
+    background-color: powderblue;
+  }
+
+  .about {
+    background-image: url("images/background-for-about.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: black;
+    margin-top: 120px;
+  }
+
+  .heading-about {
+    height: 79px;
+    width: 327px;
+    left: 24px;
+    top: 120px;
+    font-family: "Crete Round", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #ff6b00;
+    padding-top: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .abt-des {
+    height: 148px;
+    width: 327px;
+    left: 24px;
+    top: 223px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f4f5f7;
+    margin: 24px;
+  }
+
+  .resume {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background: #ff6b00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 161px;
+    height: 48px;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-left: 24px;
+    margin-right: 190px;
+    margin-bottom: 209px;
+  }
+
+  .types {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    color: #f4f5f7;
+    display: flex;
+    gap: 12px;
+    margin-left: 124px;
+  }
+
+  .frame {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 89px;
+  }
+
+  .skill {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 115px;
+  }
+
+  .lan {
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .explain {
+    text-decoration: none;
+    color: #fff;
   }
 }
