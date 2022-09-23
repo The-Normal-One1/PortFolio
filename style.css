@@ -187,6 +187,11 @@
     background-color: green;
   }
 
+  .project-cards {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 80px;
+  }
   .profesion {
     color: #fff;
     background-image: url("images/background.svg");
@@ -247,7 +252,7 @@
     background-color: #1c1a19;
   }
 
-  .proj {
+  .project-button {
     font-family: "Inter", sans-serif;
     font-size: 17px;
     font-weight: 700;
@@ -259,9 +264,13 @@
     text-decoration: none;
     color: #fff;
     margin-top: -15px;
-    width: 100%;
     margin-right: 24px;
     margin-bottom: 24px;
+    height: 48px;
+    width: 435px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
   }
 
   .proj:hover {
