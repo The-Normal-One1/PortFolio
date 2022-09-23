@@ -112,7 +112,7 @@
     font-size: 40px;
     font-weight: 400;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #1c1a19;
   }
@@ -126,16 +126,16 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
   .daily {
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
@@ -147,16 +147,17 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     padding: 0;
   }
+
   .block {
     box-sizing: border-box;
     border: 1px solid #8993a4;
     align-items: center;
     padding: 10px 12px;
-    background: #ffffff;
+    background: #fff;
     text-decoration: none;
     color: #091e42;
     margin-bottom: 12px;
@@ -176,7 +177,7 @@
     padding: 12px;
     background: #ff6b00;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     margin-top: 12px;
   }
@@ -187,7 +188,7 @@
   }
 
   .profesion {
-    color: #ffffff;
+    color: #fff;
     background-image: url("images/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +201,7 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     padding-top: 84px;
     margin-left: 16px;
@@ -213,7 +214,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     margin-left: 16px;
     margin-right: 16px;
@@ -225,7 +226,7 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     list-style-type: none;
     display: flex;
@@ -237,7 +238,7 @@
   .block-two {
     text-decoration: none;
     padding: 10px 12px 10px 12px;
-    color: #ffffff;
+    color: #fff;
     background: rgba(255, 255, 255, 0.24);
   }
 
@@ -245,6 +246,7 @@
     color: aquamarine;
     background-color: #1c1a19;
   }
+
   .proj {
     font-family: "Inter", sans-serif;
     font-size: 17px;
@@ -255,7 +257,7 @@
     position: absolute;
     background-color: #ff6b00;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     margin-top: -15px;
     width: 100%;
     margin-right: 24px;
@@ -321,11 +323,7 @@
     width: 161px;
     height: 48px;
     text-decoration: none;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
+    color: #fff;
     margin-left: 24px;
     margin-right: 190px;
     margin-bottom: 209px;
@@ -336,7 +334,7 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     text-decoration: none;
     align-items: center;
@@ -351,9 +349,9 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -366,9 +364,9 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -382,7 +380,7 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 43px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
   }
 
