@@ -80,6 +80,13 @@
     margin: 12px 24px;
   }
 
+  .list {
+    list-style-type: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+  }
+
   .social-item {
     height: 20px;
     width: 18px;
