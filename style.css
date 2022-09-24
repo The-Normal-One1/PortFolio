@@ -1,7 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: black;
-    max-height: 1000px;
+    margin: 0;
   }
 
   header {
@@ -11,8 +10,9 @@
   .home {
     background-image: url("images/group.svg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-position: bottom right;
+    background-color: black;
   }
 
   .nav {
@@ -40,7 +40,7 @@
   }
 
   .humburger {
-    color: white;
+    color: #fff;
     padding-right: 36px;
   }
 
@@ -51,9 +51,10 @@
     font-weight: 400;
     font-size: 56px;
     line-height: 64px;
-    margin: 120px 24px 24px;
+    margin: 0 24px 24px;
     letter-spacing: 0.37px;
     color: #ff6b00;
+    padding-top: 120px;
   }
 
   .my-job {
@@ -85,6 +86,7 @@
     display: flex;
     width: 200px;
     justify-content: space-between;
+    height: 50px;
   }
 
   .social-item {
@@ -96,6 +98,306 @@
   .social {
     display: flex;
     gap: 20px;
-    margin-left: 35px;
+    margin-left: 0;
+  }
+
+  .works {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .my-recent {
+    padding-top: 120px;
+    font-family: "Crete Round", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #1c1a19;
+  }
+
+  .placeholder {
+    padding-top: 80px;
+  }
+
+  .stories {
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .daily {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .lruby {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+  .block {
+    box-sizing: border-box;
+    border: 1px solid #8993a4;
+    align-items: center;
+    padding: 10px 12px;
+    background: #fff;
+    text-decoration: none;
+    color: #091e42;
+    margin-bottom: 12px;
+  }
+
+  .block:hover {
+    color: gray;
+    background-color: #091e42;
+  }
+
+  .see-project {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 12px;
+    background: #ff6b00;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 12px;
+  }
+
+  .see-project:hover {
+    color: #3c3a39;
+    background-color: green;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 80px;
+  }
+
+  .profesion {
+    color: #fff;
+    background-image: url("images/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .heading-content {
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-top: 84px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+  }
+
+  .p-content {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+  }
+
+  .p-language {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-bottom: 22px;
+  }
+
+  .block-two {
+    text-decoration: none;
+    padding: 10px 12px 10px 12px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .block-two:hover {
+    color: aquamarine;
+    background-color: #1c1a19;
+  }
+
+  .project-button {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background-color: #ff6b00;
+    text-decoration: none;
+    color: #fff;
+    margin-top: -15px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    height: 48px;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+  }
+
+  .proj:hover {
+    color: #8993a4;
+    background-color: powderblue;
+  }
+
+  .about {
+    background-image: url("images/background-for-about.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+    background-color: black;
+    margin-top: 120px;
+  }
+
+  .heading-about {
+    height: 79px;
+    width: 327px;
+    left: 24px;
+    top: 120px;
+    font-family: "Crete Round", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #ff6b00;
+    padding-top: 120px;
+    margin-left: 24px;
+  }
+
+  .abt-des {
+    height: 148px;
+    width: 327px;
+    left: 24px;
+    top: 223px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f4f5f7;
+    margin-left: 24px;
+    margin-top: -12px;
+  }
+
+  .resume {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background: #ff6b00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    padding-left: 35px;
+    gap: 10px;
+    width: 161px;
+    height: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 24px;
+    margin-right: 190px;
+    margin-bottom: 209px;
+  }
+
+  .resume:hover {
+    background-color: rgb(3, 112, 202);
+    color: aquamarine;
+  }
+
+  .types {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    color: #f4f5f7;
+    display: flex;
+    gap: 12px;
+    margin-left: 124px;
+  }
+
+  .frame {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 22%;
+  }
+
+  .skill {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 32%;
+  }
+
+  .lan {
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0;
+    color: #fff;
+    margin-top: -15px;
+    margin-left: -20%;
+    text-align: center;
   }
 }

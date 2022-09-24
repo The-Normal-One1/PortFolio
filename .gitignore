@@ -1,1 +1,15 @@
 node_modules
+
+ <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.    </p>
+    <form action="#">
+    <label for="fname">Full Name:</label> <br>
+    <input type="text" name="fname" id="fname" placeholder="Ermiyas Demsew"> <br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" placeholder="manermidem@gamil.com"> <br><br>
+    <textarea name="message" cols="30" rows="10" placeholder="please leave a comment here"></textarea> <br>
+    <input type="submit" value="Get in touch">
+ 
+</form>
+<section>
+    social media
+</section>
