@@ -140,7 +140,7 @@
   }
 
   .lruby {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     list-style-type: none;
     font-family: "Inter", sans-serif;
@@ -150,6 +150,8 @@
     letter-spacing: 0;
     text-align: left;
     padding: 0;
+    float: left;
+    margin-bottom: 200px;
   }
 
   .block {
@@ -161,6 +163,8 @@
     text-decoration: none;
     color: #091e42;
     margin-bottom: 12px;
+    float: inherit;
+    margin-bottom: 100px;
   }
 
   .block:hover {
