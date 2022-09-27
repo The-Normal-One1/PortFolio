@@ -411,8 +411,8 @@
     margin-bottom: 200px;
   }
 
-  form>h4 {
-    font-family: Inter;
+  form > h4 {
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
@@ -422,14 +422,13 @@
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 120px;
-    text-align: center;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   #fname,
   #email {
     border: none;
-    border-bottom: 1px solid #dBd8d7;
+    border-bottom: 1px solid #dbd8d7;
     padding: 15px 16px;
     font-family: "Inter", sans-serif;
     font-size: 15px;
@@ -438,7 +437,7 @@
     text-align: left;
   }
 
-  form>textarea {
+  form > textarea {
     height: 114px;
     padding: 12px;
     font-family: "Inter", sans-serif;
@@ -450,7 +449,7 @@
     background: #fbf8f7;
   }
 
-  form>button {
+  form > button {
     margin: 0 auto;
     align-items: center;
     padding: 12px;
@@ -458,13 +457,19 @@
     width: 140px;
     left: 98px;
     top: 282px;
-    background: #FF6B00;
+    background: #ff6b00;
     font-family: "Inter", sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
     border: none;
-    color:#fff
+    color: #fff;
+  }
+
+  form > button:hover {
+    cursor: pointer;
+    background-color: #fff5e1;
+    color: #f55800;
   }
 }
