@@ -238,53 +238,81 @@
         <button class="project-button" href="#">See Project</button>
       </div>
     </section>
-    <footer>
-      <section class="about">
-        <h2 class="heading-about">About me</h2>
-        <p class="abt-des">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <a class="resume" href="#">Get My Resume</a>
-        <hr />
+    <section class="about">
+      <h2 class="heading-about">About me</h2>
+      <p class="abt-des">
+        Hello I’m a software developer! I can help you build a product , feature
+        or website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <a class="resume" href="#">Get My Resume</a>
+      <hr />
 
-        <div class="types" href="#">
-          <img src="images/Rectangle 55.svg" alt="rectangular shape" />
-          <h3>language</h3>
-        </div>
-        <ul class="lan">
-          <li>Javascript</li>
-          <li>Ruby</li>
-          <li>Htmk</li>
-          <li>Css</li>
-        </ul>
+      <div class="types" href="#">
+        <img src="images/Rectangle 55.svg" alt="rectangular shape" />
+        <h3>language</h3>
+      </div>
+      <ul class="lan">
+        <li>Javascript</li>
+        <li>Ruby</li>
+        <li>Htmk</li>
+        <li>Css</li>
+      </ul>
 
-        <div class="frame">
-          <img src="images/Rectangle.svg" alt="rectangular shape" />
-          <h3>Frameworks</h3>
-        </div>
+      <div class="frame">
+        <img src="images/Rectangle.svg" alt="rectangular shape" />
+        <h3>Frameworks</h3>
+      </div>
 
-        <ul class="lan">
-          <li>Bootstrap</li>
-          <li>Ruby on Rails</li>
-          <li>RSPec</li>
-          <li>CapyBara</li>
-          <li>Selenium</li>
-        </ul>
-        <div class="skill">
-          <img src="images/circle.svg" alt="rectangular shape" />
-          <h3>Skills</h3>
-        </div>
-        <ul class="lan">
-          <li>Codekit</li>
-          <li>Github</li>
-          <li>Codepen</li>
-          <li>Gitlab</li>
-          <li>Terminal</li>
-        </ul>
-      </section>
-    </footer>
+      <ul class="lan">
+        <li>Bootstrap</li>
+        <li>Ruby on Rails</li>
+        <li>RSPec</li>
+        <li>CapyBara</li>
+        <li>Selenium</li>
+      </ul>
+      <div class="skill">
+        <img src="images/circle.svg" alt="rectangular shape" />
+        <h3>Skills</h3>
+      </div>
+      <ul class="lan">
+        <li>Codekit</li>
+        <li>Github</li>
+        <li>Codepen</li>
+        <li>Gitlab</li>
+        <li>Terminal</li>
+      </ul>
+    </section>
+    <form action="https://formspree.io/f/xrgdqjeq" method="post">
+      <h4>
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </h4>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="Full name"
+        maxlength="30"
+        required
+      />
+
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email address"
+        required
+      />
+      <textarea
+        name="message"
+        cols="30"
+        rows="10"
+        placeholder="Enter text here "
+        maxlength="500"
+        required
+      ></textarea>
+      <button type="submit">Get in touch</button>
+    </form>
   </body>
 </html>
