@@ -195,6 +195,10 @@
     background-color: green;
   }
 
+  .project-cards-desktop {
+    display: none;
+  }
+
   .project-cards {
     display: grid;
     grid-template-columns: auto;
@@ -639,6 +643,8 @@
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   .placeholder {
@@ -646,17 +652,17 @@
   }
 
   .placeholder2 {
-    max-width: 60%;
+    max-width: 58%;
     height: auto;
     float: left;
-    margin-top: 114px;
+    margin-top: 100px;
     margin-left: 10%;
     margin-right: 2%;
   }
 
   .clearfix {
     overflow: auto;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
   }
 
   .stories {
@@ -683,13 +689,12 @@
     line-height: 28px;
     padding: 0;
     color: #091e42;
-    /* margin-left: 62%; */
-    /* position: absolute; */
+    justify-content: right;
   }
 
   .lruby {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     list-style-type: none;
     margin-right: 10%;
     font-family: "Inter", sans-serif;
@@ -697,7 +702,7 @@
     font-weight: 500;
     line-height: 20px;
     text-align: left;
-    /* margin-left: 62%; */
+    margin-left: 2%;
     gap: 12px;
   }
 
@@ -713,7 +718,7 @@
   }
 
   .block:hover {
-    color: gray;
+    color: white;
     background-color: #091e42;
   }
 
@@ -729,102 +734,142 @@
     text-decoration: none;
     margin-top: 24px;
     padding: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
+    margin-left: 5%;
   }
 
   .see-project:hover {
-    color: #3c3a39;
-    background-color: green;
+    color: #f55800;
+    background-color: #fff5e1;
   }
 
-  .project-cards {
+  .project-cards-desktop {
     display: grid;
-    grid-template-columns: auto;
-    gap: 80px;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
-  .profesion {
+  .nothing {
+    border: 1px solid black;
+    height: 435px;
+    background-image: url("Images/project-button-desktop.svg");
+  }
+
+  .project-button-desktop {
+    padding: 12px;
+    background-color: #f55800;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    border: none;
     color: #fff;
-    background-image: url("images/background.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-
-  .heading-content {
-    font-family: "Crete Round", serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 44px;
-    letter-spacing: 0;
-    text-align: left;
-    padding-top: 84px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 12px;
-  }
-
-  .p-content {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0;
-    text-align: left;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 12px;
-  }
-
-  .p-language {
-    font-family: "Inter", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0;
-    text-align: left;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 0;
-    padding-bottom: 22px;
-  }
-
-  .block-two {
-    text-decoration: none;
-    padding: 10px 12px 10px 12px;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-  }
-
-  .block-two:hover {
-    color: aquamarine;
-    background-color: #1c1a19;
-  }
-
-  .project-button {
     font-family: "Inter", sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    background-color: #ff6b00;
-    text-decoration: none;
-    color: #fff;
-    margin-top: -15px;
-    margin-right: 24px;
-    margin-bottom: 24px;
-    height: 48px;
-    width: 100%;
-    border-radius: 0;
-    border: none;
+    position: relative;
+    top: 387px;
   }
 
-  .proj:hover {
-    color: #8993a4;
-    background-color: powderblue;
+  .project-button-desktop:hover {
+    cursor: pointer;
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .profesion-desktop {
+    height: 435px;
+    border: 1px solid black;
+    background-image: url("images/data-dashboard-desktop.svg");
+    background-repeat: no-repeat;
+  }
+
+  .heading-content-desktop {
+    margin-left: 16px;
+    margin-top: 175px;
+    margin-right: 16px;
+    margin-bottom: 0;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  .p-content-desktop {
+    margin-left: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .p-language-desktop {
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    gap: 12px;
+    margin-right: 24px;
+  }
+
+  .block-two-desktop {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .profesion-desktop3 {
+    background-image: url("images/website-portfolio-desktop.svg");
+    background-repeat: no-repeat;
+  }
+
+  .heading-content-desktop3 {
+    margin-top: 221px;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 16px;
+  }
+
+  .profesion-desktop4 {
+    background-image: url("images/professional\ and\ printing.svg");
+    background-repeat: no-repeat;
+  }
+
+  .heading-content-desktop4 {
+    margin-top: 175px;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-left: 16px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  .block-two-desktop:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+  }
+
+  .project-cards {
+    display: none;
   }
 
   .about {
