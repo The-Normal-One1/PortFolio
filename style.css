@@ -125,6 +125,10 @@
     padding-top: 80px;
   }
 
+  .placeholder2 {
+    display: none;
+  }
+
   .stories {
     font-family: "Crete Round", serif;
     font-size: 32px;
@@ -478,9 +482,10 @@
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 768px) {
   body {
     margin: 0;
+    padding: 0;
   }
 
   header {
@@ -535,6 +540,7 @@
     background-repeat: no-repeat;
     background-position: right;
     background-attachment: local;
+    background-size: 400px;
   }
 
   .social {
@@ -608,55 +614,91 @@
     color: #f4f5f7;
   }
 
-  .works {
-    padding-left: 24px;
-    padding-right: 24px;
+  .my-recent:after {
+    background-color: #212121;
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    width: 55%;
+    margin-left: 24px;
+  }
+
+  hr {
+    display: none;
   }
 
   .my-recent {
+    display: flex;
+    flex-direction: row;
     padding-top: 120px;
+    margin-left: 11%;
     font-family: "Crete Round", serif;
-    font-size: 40px;
+    font-style: normal;
     font-weight: 400;
+    font-size: 40px;
     line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #1c1a19;
+    color: #091e42;
   }
 
   .placeholder {
-    padding-top: 80px;
+    display: none;
+  }
+
+  .placeholder2 {
+    max-width: 60%;
+    height: auto;
+    float: left;
+    margin-top: 114px;
+    margin-left: 10%;
+    margin-right: 2%;
+  }
+
+  .clearfix {
+    overflow: auto;
+    margin-bottom: 24px;
   }
 
   .stories {
+    margin-top: 114px;
+    margin-right: 10%;
+    padding: 0;
     font-family: "Crete Round", serif;
-    font-size: 32px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 44px;
-    letter-spacing: 0;
+    font-size: 40px;
+    line-height: 52px;
     text-align: left;
+    margin-bottom: -20px;
+    color: #091e42;
   }
 
   .daily {
+    margin-right: 10%;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0;
     text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0;
+    color: #091e42;
+    /* margin-left: 62%; */
+    /* position: absolute; */
   }
 
   .lruby {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     list-style-type: none;
+    margin-right: 10%;
     font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0;
     text-align: left;
-    padding: 0;
+    /* margin-left: 62%; */
+    gap: 12px;
   }
 
   .block {
@@ -681,12 +723,13 @@
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
-    padding: 12px;
     background: #ff6b00;
     text-align: center;
     color: #fff;
     text-decoration: none;
-    margin-top: 12px;
+    margin-top: 24px;
+    padding: 12px;
+    margin-bottom: 12px;
   }
 
   .see-project:hover {
