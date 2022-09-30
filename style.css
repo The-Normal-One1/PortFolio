@@ -557,6 +557,11 @@
     color: #fff;
     height: 4px;
     width: 12px;
+    transition: transform 2s;
+  }
+
+  .material-icons:hover {
+    transform: scale(1.5);
   }
 
   .logo {
