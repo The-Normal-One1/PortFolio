@@ -59,6 +59,15 @@
     letter-spacing: 0.37px;
     color: #ff6b00;
     padding-top: 120px;
+    animation-name: mobile-title;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes mobile-title {
+    50% {
+      font-size: 60px;
+    }
   }
 
   .my-job {
@@ -642,6 +651,15 @@
     color: #f55800;
     margin: 0;
     padding-bottom: 8px;
+    animation-name: desktop-title;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes desktop-title {
+    50% {
+      font-size: 80px;
+    }
   }
 
   .my-job {
