@@ -694,18 +694,17 @@
     display: none;
   }
 
+  .clearfix {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
   .placeholder2 {
-    max-width: 58%;
+    max-width: 56%;
     height: auto;
-    float: left;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 2%;
-  }
-
-  .clearfix {
-    overflow: auto;
-    margin-bottom: 50px;
   }
 
   .stories {
@@ -737,7 +736,6 @@
 
   .lruby {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
     margin-right: 10%;
     font-family: "Inter", sans-serif;
@@ -745,8 +743,9 @@
     font-weight: 500;
     line-height: 20px;
     text-align: left;
-    margin-left: 2%;
     gap: 12px;
+    padding: 0;
+    width: 32%;
   }
 
   .block {
@@ -778,7 +777,6 @@
     margin-top: 24px;
     padding: 12px;
     margin-bottom: 20px;
-    margin-left: 5%;
   }
 
   .see-project:hover {
