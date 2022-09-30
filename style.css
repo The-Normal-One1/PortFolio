@@ -535,11 +535,33 @@
     justify-content: space-between;
   }
 
-  .logo,
   .navi-port,
   .navi-abt,
-  .navi-cont,
+  .navi-cont {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
   .material-icons {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color: #fff;
+    height: 4px;
+    width: 12px;
+  }
+
+  .logo {
+    margin-left: 10.6944444%;
+    gap: 52.5694%;
     color: #fff;
     text-decoration: none;
     font-family: "Inter", sans-serif;
@@ -549,11 +571,6 @@
     text-align: center;
     padding-top: 26px;
     padding-bottom: 26px;
-  }
-
-  .logo {
-    margin-left: 10.6944444%;
-    gap: 52.5694%;
   }
 
   .navi-menu {
