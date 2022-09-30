@@ -654,6 +654,7 @@
     animation-name: desktop-title;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
   }
 
   @keyframes desktop-title {
