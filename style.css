@@ -585,6 +585,20 @@
     text-align: center;
     padding-top: 26px;
     padding-bottom: 26px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes logo {
+    from {
+      font-size: 20px;
+    }
+    to {
+      font-size: 28px;
+    }
   }
 
   .navi-menu {
@@ -653,12 +667,16 @@
     padding-bottom: 8px;
     animation-name: desktop-title;
     animation-duration: 3s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
   @keyframes desktop-title {
-    50% {
+    from {
+      font-size: 72px;
+    }
+    to {
       font-size: 80px;
     }
   }
