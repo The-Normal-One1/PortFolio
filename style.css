@@ -696,7 +696,7 @@
 
   .clearfix {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 24px;
   }
 
   .placeholder2 {
@@ -776,7 +776,7 @@
     text-decoration: none;
     margin-top: 24px;
     padding: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
   .see-project:hover {
@@ -797,6 +797,7 @@
     border: 1px solid black;
     height: 435px;
     background-image: url("Images/project-button-desktop.svg");
+    background-size: cover;
   }
 
   .project-button-desktop {
@@ -824,9 +825,9 @@
 
   .profesion-desktop {
     height: 435px;
-    border: 1px solid black;
     background-image: url("images/data-dashboard-desktop.svg");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .heading-content-desktop {
@@ -858,6 +859,8 @@
     margin-bottom: 16px;
     gap: 12px;
     margin-right: 24px;
+    padding: 0;
+    margin-top: 16px;
   }
 
   .block-two-desktop {
@@ -871,11 +874,14 @@
     line-height: 20px;
     padding: 10px 12px;
     background: rgba(255, 255, 255, 0.24);
+    /* margin-bottom: 30px; */
   }
 
   .profesion-desktop3 {
+    height: 435px;
     background-image: url("images/website-portfolio-desktop.svg");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .heading-content-desktop3 {
@@ -890,6 +896,7 @@
   }
 
   .profesion-desktop4 {
+    height: 435px;
     background-image: url("images/professional\ and\ printing.svg");
     background-repeat: no-repeat;
   }
