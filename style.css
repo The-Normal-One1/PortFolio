@@ -799,6 +799,7 @@
     border: 1px solid black;
     background-image: url("Images/project-button-desktop.svg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .project-button-desktop {
