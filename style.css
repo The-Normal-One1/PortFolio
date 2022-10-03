@@ -794,14 +794,15 @@
   }
 
   .nothing {
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    height: 435px;
     background-image: url("Images/project-button-desktop.svg");
     background-size: cover;
   }
 
   .project-button-desktop {
-    padding: 12px;
+    padding: 16px;
     background-color: #f55800;
     text-align: center;
     justify-items: center;
@@ -812,8 +813,9 @@
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
-    position: relative;
-    top: 387px;
+    /* margin-top: 0; */
+    /* position: relative; */
+    margin-top: 150%;
   }
 
   .project-button-desktop:hover {
@@ -824,7 +826,6 @@
   }
 
   .profesion-desktop {
-    height: 435px;
     background-image: url("images/data-dashboard-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -877,7 +878,6 @@
   }
 
   .profesion-desktop3 {
-    height: 435px;
     background-image: url("images/website-portfolio-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -895,13 +895,15 @@
   }
 
   .profesion-desktop4 {
-    height: 435px;
+    display: flex;
+    flex-direction: column;
     background-image: url("images/professional\ and\ printing.svg");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .heading-content-desktop4 {
-    margin-top: 175px;
+    margin-top: 158px;
     font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
