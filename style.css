@@ -841,8 +841,9 @@
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    background-image: url("Images/project-button-desktop.svg");
+    background-image: url("images/cover.png");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .project-button-desktop {
