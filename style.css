@@ -59,6 +59,15 @@
     letter-spacing: 0.37px;
     color: #ff6b00;
     padding-top: 120px;
+    animation-name: mobile-title;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes mobile-title {
+    50% {
+      font-size: 60px;
+    }
   }
 
   .my-job {
@@ -557,6 +566,11 @@
     color: #fff;
     height: 4px;
     width: 12px;
+    transition: transform 2s;
+  }
+
+  .material-icons:hover {
+    transform: scale(1.5);
   }
 
   .logo {
@@ -571,6 +585,21 @@
     text-align: center;
     padding-top: 26px;
     padding-bottom: 26px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes logo {
+    from {
+      font-size: 20px;
+    }
+
+    to {
+      font-size: 28px;
+    }
   }
 
   .navi-menu {
@@ -637,6 +666,21 @@
     color: #f55800;
     margin: 0;
     padding-bottom: 8px;
+    animation-name: desktop-title;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes desktop-title {
+    from {
+      font-size: 72px;
+    }
+
+    to {
+      font-size: 80px;
+    }
   }
 
   .my-job {
