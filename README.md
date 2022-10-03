@@ -8,7 +8,7 @@
 - CSS
 - Technologies used
 
-## Live Demo (not available)
+## Live Demo
 
 Please: [Here](https://the-normal-one1.github.io/PortFolio/)
 
