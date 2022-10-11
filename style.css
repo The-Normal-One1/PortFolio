@@ -27,6 +27,10 @@
     position: fixed;
   }
 
+  .nav.active {
+    justify-content: flex-end;
+  }
+
   .logo {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -43,8 +47,7 @@
   }
 
   .logo.active {
-    color: rgba(0, 0, 0, 0.05);
-    cursor: default;
+    display: none;
   }
 
   .navi-menu {
@@ -81,30 +84,14 @@
     margin-left: 24px;
   }
 
-  .material-icons {
-    text-decoration: none;
-    padding-bottom: 26px;
-    padding-left: 15px;
-    color: #fff;
-    height: 4px;
-    width: 12px;
-    font-size: 25px;
-    margin-left: 30px;
-    transition: transform 2s;
-    margin-top: 30px;
-  }
-
-  .material-icons:hover {
-    transform: scale(1.5);
-    color: #094227;
-  }
-
-  .material-icons.active {
+  .emails {
     display: none;
+    opacity: 0;
+    cursor: default;
   }
 
   .navi-link:hover {
-    color: #094227;
+    color: rgb(13, 216, 80);
   }
 
   .hamburger {
