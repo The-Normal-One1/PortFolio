@@ -24,24 +24,27 @@
   <body>
     <header>
       <nav class="nav">
-        <a class="logo" href="#">Ermiyas Demsew</a>
-        <a
-          class="humburger"
-          href="javascript:void(0);"
-          class="icon"
-          onclick="myFunction()"
-        >
-          <i class="fa fa-bars"></i>
-        </a>
+        <a class="logo" href="#home">Ermiyas Demsew</a>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
         <section class="navi-menu">
-          <a class="navi-port" href="#">Portfolio</a>
-          <a class="navi-abt" href="#">About</a>
-          <a class="navi-cont" href="#">Contact</a>
-          <a class="material-icons" href="#"> email </a>
+          <a class="navi-link" href="#home">Portfolio</a>
+          <a class="navi-link" href="#about">About</a>
+          <a class="navi-link" href="#form">Contact</a>
+          <a
+            class="material-icons emails"
+            id="emails"
+            href="mailto:manermidem@gmail.com"
+          >
+            email
+          </a>
         </section>
       </nav>
     </header>
-    <section class="home">
+    <section class="home" id="home">
       <div class="title-main">
         <h1 class="title">
           Hey There. <br />
@@ -85,7 +88,7 @@
       </div>
     </section>
 
-    <section class="works">
+    <section class="works" id="works">
       <h2 class="my-recent">My Recent Works</h2>
       <hr class="hori-break1" />
       <div class="clearfix">
@@ -364,7 +367,7 @@
         <button class="project-button" href="#">See Project</button>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h2 class="heading-about">About me</h2>
       <p class="abt-des">
         Hello I’m a software developer! I can help you build a product , feature
@@ -441,7 +444,7 @@
         <li>Terminal</li>
       </ul>
     </section>
-    <form action="https://formspree.io/f/xrgdqjeq" method="post">
+    <form action="https://formspree.io/f/xrgdqjeq" method="post" id="form">
       <h4>
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
@@ -504,5 +507,6 @@
         </li>
       </ul>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
