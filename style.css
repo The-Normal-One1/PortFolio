@@ -5,6 +5,7 @@
 
   header {
     background-color: black;
+    border-bottom: 1px solid #e3e8f0;
   }
 
   .home {
@@ -21,7 +22,8 @@
     justify-content: space-between;
     margin-left: 0;
     background-color: #3c3a39;
-    padding-top: 56px;
+    padding-top: 50px;
+    position: fixed;
   }
 
   .logo {
@@ -39,14 +41,96 @@
     margin-bottom: 12px;
   }
 
-  .humburger {
-    color: #fff;
-    padding-right: 36px;
+  .navi-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+    left: -100%;
+    height: 100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #3c3a39;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
-  .navi-menu {
-    display: none;
+  .navi-menu.active {
+    left: 0;
   }
+
+  .navi-link {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 15px;
+    /* padding-top: 26px;
+    padding-bottom: 26px; */
+    margin: 2.5rem 0;
+    border-bottom: 1px solid #6f6c6b;
+  }
+
+  .material-icons {
+    /* display: none; */
+    text-decoration: none;
+    /* text-align: center; */
+    /* padding-top: 26px; */
+    padding-bottom: 26px;
+    padding-left: 15px;
+    color: #fff;
+    height: 4px;
+    width: 12px;
+    font-size: 25px;
+    transition: transform 2s;
+  }
+
+  .material-icons:hover {
+    transform: scale(1.5);
+    color: #091e42;
+  }
+
+  .navi-link:hover {
+    color: #091e42;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
+
+  /* .humburger {
+    color: #fff;
+    padding-right: 36px;
+  } */
 
   .title {
     width: 327px;
@@ -544,9 +628,7 @@
     justify-content: space-between;
   }
 
-  .navi-port,
-  .navi-abt,
-  .navi-cont {
+  .navi-link {
     color: #fff;
     font-family: "Inter", sans-serif;
     font-size: 15px;
@@ -585,21 +667,6 @@
     text-align: center;
     padding-top: 26px;
     padding-bottom: 26px;
-    animation-name: logo;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
-  @keyframes logo {
-    from {
-      font-size: 20px;
-    }
-
-    to {
-      font-size: 28px;
-    }
   }
 
   .navi-menu {
@@ -666,21 +733,6 @@
     color: #f55800;
     margin: 0;
     padding-bottom: 8px;
-    animation-name: desktop-title;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
-  @keyframes desktop-title {
-    from {
-      font-size: 72px;
-    }
-
-    to {
-      font-size: 80px;
-    }
   }
 
   .my-job {
