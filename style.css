@@ -22,7 +22,8 @@
     justify-content: space-between;
     margin-left: 0;
     background-color: #3c3a39;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     position: fixed;
   }
 
@@ -41,14 +42,18 @@
     margin-bottom: 12px;
   }
 
+  .logo.active {
+    color: rgba(0, 0, 0, 0.05);
+    cursor: default;
+  }
+
   .navi-menu {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
     position: fixed;
     left: -100%;
     height: 100%;
-    top: 5rem;
+    top: 3rem;
     flex-direction: column;
     background-color: #3c3a39;
     width: 100%;
@@ -70,9 +75,10 @@
     line-height: 44px;
     text-decoration: none;
     text-align: left;
-    padding-left: 15px;
-    margin: 2.5rem 0;
+    padding-left: 16px;
+    margin-top: 30px;
     border-bottom: 1px solid #6f6c6b;
+    margin-left: 24px;
   }
 
   .material-icons {
@@ -83,12 +89,18 @@
     height: 4px;
     width: 12px;
     font-size: 25px;
+    margin-left: 30px;
     transition: transform 2s;
+    margin-top: 30px;
   }
 
   .material-icons:hover {
     transform: scale(1.5);
     color: #094227;
+  }
+
+  .material-icons.active {
+    display: none;
   }
 
   .navi-link:hover {
@@ -98,6 +110,7 @@
   .hamburger {
     display: block;
     cursor: pointer;
+    margin-right: 9%;
   }
 
   .bar {
