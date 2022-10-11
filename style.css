@@ -71,17 +71,12 @@
     text-decoration: none;
     text-align: left;
     padding-left: 15px;
-    /* padding-top: 26px;
-    padding-bottom: 26px; */
     margin: 2.5rem 0;
     border-bottom: 1px solid #6f6c6b;
   }
 
   .material-icons {
-    /* display: none; */
     text-decoration: none;
-    /* text-align: center; */
-    /* padding-top: 26px; */
     padding-bottom: 26px;
     padding-left: 15px;
     color: #fff;
@@ -93,11 +88,11 @@
 
   .material-icons:hover {
     transform: scale(1.5);
-    color: #091e42;
+    color: #094227;
   }
 
   .navi-link:hover {
-    color: #091e42;
+    color: #094227;
   }
 
   .hamburger {
@@ -126,11 +121,6 @@
     transition: all 0.3s ease-in-out;
     background-color: #fff;
   }
-
-  /* .humburger {
-    color: #fff;
-    padding-right: 36px;
-  } */
 
   .title {
     width: 327px;
