@@ -68,7 +68,7 @@
   }
 
   .navi-link {
-    color: #fff;
+    color: #fff5e1;
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -129,10 +129,12 @@
 
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background-color: #67798e;
   }
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #67798e;
   }
 
   .title {
