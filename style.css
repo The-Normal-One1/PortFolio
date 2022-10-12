@@ -1166,10 +1166,6 @@
     margin-left: 30px;
   }
 
-  .popuppharagraph2 {
-    margin-right: 30px;
-  }
-
   .popcon > img {
     margin-bottom: 30px;
     width: 95%;
@@ -1186,6 +1182,7 @@
     font-size: 16px;
     color: #344563;
     margin-bottom: 74px;
+    margin-right: 30px;
   }
 
   .pop-up-btns {
