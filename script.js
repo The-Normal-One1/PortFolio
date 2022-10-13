@@ -136,21 +136,9 @@ const form = document.querySelector("#form");
 const email = document.getElementById("email");
 const emailError = document.querySelector(".error");
 
-// email.addEventListener("input", (event) => {
-//   if (email.validity.valid) {
-//     // In case there is an error message visible, if the field
-//     // is valid, we remove the error message.
-//     emailError.textContent = ""; // Reset the content of the message
-//     emailError.className = "error"; // Reset the visual state of the message
-//   } else {
-//     // If there is still an error, show the correct error
-//     showError();
-//   }
-// });
-
 form.addEventListener("submit", (event) => {
-
-  if(email.value.match(/[A-Z]/g)) {
+  
+   if(email.value.match(/[A-Z]/g)) {
     event.preventDefault();
     emailError.textContent = "Please use lowercases for the email field";
   } else if (email.validity.valueMissing) {
@@ -161,8 +149,7 @@ form.addEventListener("submit", (event) => {
     emailError.textContent = "Entered value needs to be an e-mail address.";
   } else if (email.validity.tooShort) {
     event.preventDefault();
-    emailError.textContent = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
-  }
- 
+    emailError.textContent = "You need to enter an e-mail address.";
+  } 
 });
 
