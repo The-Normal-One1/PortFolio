@@ -88,11 +88,9 @@
       </div>
     </section>
 
-    <section class="works" id="works">
-    </section>
+    <section class="works" id="works"></section>
 
-    <section class="project-cards-desktop">
-    </section>
+    <section class="project-cards-desktop"></section>
 
     <section class="project-cards">
       <div class="profesion">
@@ -338,7 +336,9 @@
           id="email"
           placeholder="Email address"
           required
+          minlength="8"
         />
+        <span class="error" aria-live="polite"></span>
         <textarea
           name="message"
           cols="30"
@@ -380,8 +380,7 @@
         </li>
       </ul>
     </footer>
-    <section class="modal" id="modal">
-    </section>
+    <section class="modal" id="modal"></section>
     <div id="overlay"></div>
     <script src="cards.js"></script>
     <script src="script.js"></script>
