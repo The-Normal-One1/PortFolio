@@ -131,10 +131,9 @@ closeModalButtons.forEach((button) => {
 
 const form = document.querySelector('#form');
 const email = document.getElementById('email');
-const emailError = document.querySelector('.error');
 
 form.addEventListener('submit', (event) => {
-  if (email.value.match(/[A-Z]/g)) {
+  if (email.value.match(/[a-z]/g)) {
     event.preventDefault();
     emailError.textContent = 'Please use lowercases for the email field';
   } else if (email.validity.valueMissing) {
